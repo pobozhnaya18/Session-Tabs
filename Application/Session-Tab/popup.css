@@ -1,0 +1,352 @@
+body {
+  width: 400px;
+  font-size: 12px;
+  background-color: #40d1eb11;
+}
+
+button {
+  background-color: #ceb9cead;
+  cursor: pointer;
+}
+
+.bg-dark-green {
+  background-color: #044b31;
+}
+
+.dark-blue {
+  border-color: #5d97e2;
+}
+
+.dark-pink {
+  border-color: #db3349e7;
+}
+
+.inner-div-li {
+  width: 70%;
+}
+
+.outer-div-le {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-div-icon {
+  display: flex;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.outer-div-le:hover {
+  background: #a7a7a721;
+  cursor: pointer;
+}
+
+.fa-plus {
+  display: none;
+  float: right;
+  font-size: 16px;
+  color: green;
+}
+
+#search {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  font-size: 14px;
+  line-height: 2px;
+  border: 1px solid #216ec5c0;
+  border-bottom-width: 1.5px;
+}
+
+/* TACHYONS CSS */
+
+:root {
+  --spacing-none: 0;
+  --spacing-extra-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-extra-large: 4rem;
+  --spacing-extra-extra-large: 8rem;
+  --spacing-extra-extra-extra-large: 16rem;
+}
+
+.ba {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.b--light-silver {
+  border-color: #aaa;
+}
+
+.br2 {
+  border-radius: 0.25rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.mw6 {
+  max-width: 32rem;
+}
+
+.pa2 {
+  padding: 0.5rem;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.pv3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.f4 {
+  font-size: 1.25rem;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 30em) {
+  .pa5-ns {
+    padding: 4rem;
+  }
+}
+
+.ba {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.br1 {
+  border-radius: 0.125rem;
+}
+
+.bw1 {
+  border-width: 0.125rem;
+}
+
+.bw2 {
+  border-width: 0.25rem;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.fw6 {
+  font-weight: 600;
+}
+
+.tracked {
+  letter-spacing: 0.1em;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
+}
+
+.link:hover {
+  transition: color 0.15s ease-in;
+}
+
+.link:active {
+  transition: color 0.15s ease-in;
+}
+
+.link:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.black {
+  color: #000;
+}
+
+.near-black {
+  color: #111;
+}
+
+.dark-gray {
+  color: #333;
+}
+
+.mid-gray {
+  color: #555;
+}
+
+.white {
+  color: #fff;
+}
+
+.purple {
+  color: #5e2ca5;
+}
+
+.light-purple {
+  color: #a463f2;
+}
+
+.dark-pink {
+  color: #c70820;
+}
+
+.hot-pink {
+  color: #ff41b4;
+}
+
+.dark-green {
+  color: #137752;
+}
+
+.navy {
+  color: #001b44;
+}
+
+.dark-blue {
+  color: #00449e;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-near-black {
+  background-color: #111;
+}
+
+.bg-dark-gray {
+  background-color: #333;
+}
+
+.bg-mid-gray {
+  background-color: #555;
+}
+
+.bg-purple {
+  background-color: #5e2ca5;
+}
+
+.bg-light-purple {
+  background-color: #a463f2;
+}
+
+.bg-dark-pink {
+  background-color: #d5008f;
+}
+
+.bg-hot-pink {
+  background-color: #ff41b4;
+}
+
+.bg-dark-green {
+  background-color: #137752;
+}
+
+.bg-navy {
+  background-color: #001b44;
+}
+
+.bg-dark-blue {
+  background-color: #00449e;
+}
+
+.pv2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb4 {
+  margin-bottom: 2rem;
+}
+
+.mt4 {
+  margin-top: 2rem;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.f6 {
+  font-size: 0.875rem;
+}
+
+.dim {
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.pv1 {
+  padding-top: var(--spacing-extra-small);
+  padding-bottom: var(--spacing-extra-small);
+}
+
+.ph1 {
+  padding-left: var(--spacing-extra-small);
+  padding-right: var(--spacing-extra-small);
+}
+
+.mt1 {
+  margin-top: var(--spacing-extra-small);
+}
+
+.mr1 {
+  margin-right: var(--spacing-extra-small);
+}
+
+.mr2 {
+  margin-right: var(--spacing-small);
+}
+
+.m0 {
+  margin: var(--spacing-none);
+}

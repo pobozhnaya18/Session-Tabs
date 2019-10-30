@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Session-Tab",
+  "description": "This extension will allow users to create a session they can reopen eventually",
+  "version": "1.0",
+  "icons": {
+    "28": "icon.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "tabs"]
+}
